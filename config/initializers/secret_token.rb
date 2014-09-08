@@ -25,4 +25,4 @@ def secure_token
   end
 end
 
-Wheedle::Application.config.secret_token = secure_token
+Wheedle::Application.config.secret_key_base = '5ff0082cd207fc0cb871b07eb9488042265d4716d33b33866b91ee58765081347ea7f0a40995aff499fb3cdc6d2e7df53a2782216fd947b3bdb9931e0b9daa9a'
